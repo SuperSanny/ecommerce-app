@@ -22,7 +22,7 @@ const ProductCard = (props) => {
               alt="productImage"
             />
             <img
-              src="images/watch-01.avif"
+              src="images/watch-01.jpg"
               className="img-fluid"
               alt="productImage"
             />
@@ -78,7 +78,7 @@ const ProductCard = (props) => {
               alt="productImage"
             />
             <img
-              src="images/watch-01.avif"
+              src="images/watch-01.jpg"
               className="img-fluid"
               alt="productImage"
             />
@@ -134,7 +134,7 @@ const ProductCard = (props) => {
               alt="productImage"
             />
             <img
-              src="images/watch-01.avif"
+              src="images/watch-01.jpg"
               className="img-fluid"
               alt="productImage"
             />
