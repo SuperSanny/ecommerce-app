@@ -602,13 +602,176 @@ footer .input-group-text {
   font-size: 13px;
   color: var(--color-777777);
 }
-.auth-card .signup {
+.signup {
   background-color: var(--color-febd69);
   color: var(--color-131921);
+  border: none;
 }
-.auth-card .signup:hover {
+.signup:hover {
   background-color: var(--color-232f3e);
   color: white;
 }
 
 /* Auth Card End */
+
+/* Policy Pages */
+.policy {
+  background-color: white;
+  padding: 30px;
+}
+
+/* Policy Pages Ends */
+
+/* Refund Policy Pages */
+.refund-policy {
+  background-color: white;
+  padding: 30px;
+}
+
+/* Refund Policy Pages Ends */
+
+/* Shipping Policy Pages */
+.shipping-policy {
+  background-color: white;
+  padding: 30px;
+}
+
+/* Shipping Policy Pages Ends */
+
+/* Terms and Conditions Pages */
+.terms-and-service {
+  background-color: white;
+  padding: 30px;
+}
+
+/* Terms and Conditions Pages Ends */
+
+/* Main Product Page */
+
+.description-wrapper h4,
+.reviews-wrapper h3 {
+  font-size: 26px;
+  color: #1c1c1b;
+  margin-bottom: 10px;
+}
+
+.review-inner-wrapper {
+  background-color: white;
+  padding: 30px;
+}
+.review-head {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+}
+.review-head h4 {
+  font-size: 18px;
+  color: var(--color-1c1c1b);
+}
+.review-head p,
+.review-head a {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+.review-form h4 {
+  font-size: 18px;
+  color: var(--color-777777);
+}
+
+.review-form form h5 {
+  font-weight: 600;
+  color: var(--color-777777);
+}
+.form-review-label {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-777777);
+}
+.show-reviews {
+  line-height: 20px;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+.show-reviews p,
+.report {
+  font-weight: 500;
+  color: var(--color-777777);
+}
+.show-reviews div > p {
+  font-weight: 500;
+  color: var(--color-777777);
+}
+.review-reply {
+  background-color: var(--color-ededed);
+  margin: 10px 50px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.review-reply h6 {
+  color: var(--color-3b4149);
+}
+.review-reply p {
+  font-weight: 400;
+}
+.main-product-card {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+/* .main-product-image {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.other-product-images {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+} */
+.main-product-image > div {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+.other-product-images > div {
+  padding: 20px;
+  margin: 2px;
+  width: 48%;
+  /* height: auto; */
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+.main-product-details {
+  padding: 10px 20px;
+}
+.border-bottom {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.main-product-details h3.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+  margin-bottom: 10px;
+}
+.main-product-details p.price {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.main-product-details a.review-btn,
+.t-review {
+  color: var(--color-777777);
+  font-size: 13px;
+}
+.product-heading {
+  font-size: 16px;
+  color: var(--color-1c1c1b);
+  margin-bottom: 0px;
+}
+.product-data {
+  font-size: 14px;
+  color: var(--color-777777);
+  margin-bottom: 0px;
+}
+.main-product-details a {
+  font-size: 14px;
+  color: var(--color-777777);
+}
+/* Main Prodcut Page Ends */
