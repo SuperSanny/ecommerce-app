@@ -1,7 +1,6 @@
 import React from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import Meta from "../components/Meta";
-// import { Link } from "react-router-dom";
 const Signup = () => {
   return (
     <>
@@ -18,7 +17,7 @@ const Signup = () => {
                     <input
                       type="text"
                       name="firstName"
-                      id=""
+                      id="firstName"
                       placeholder="First Name"
                       className="form-control"
                     />
@@ -27,7 +26,7 @@ const Signup = () => {
                     <input
                       type="text"
                       name="lastName"
-                      id=""
+                      id="lastName"
                       placeholder="Last Name"
                       className="form-control"
                     />
@@ -36,7 +35,7 @@ const Signup = () => {
                     <input
                       type="email"
                       name="email"
-                      id=""
+                      id="email"
                       placeholder="Email"
                       className="form-control"
                     />
@@ -45,7 +44,7 @@ const Signup = () => {
                     <input
                       type="password"
                       name="password"
-                      id=""
+                      id="password"
                       placeholder="Password"
                       className="form-control"
                     />

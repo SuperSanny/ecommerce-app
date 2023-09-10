@@ -6,6 +6,10 @@ import ProductCard from "../components/ProductCard";
 import Color from "../components/Color";
 const OurStore = () => {
   const [grid, setGrid] = useState(4);
+  const [selectedOption, setSelectedOption] = useState("manual");
+  const handleSelectChange = (event) => {
+    setSelectedOption(event.target.value);
+  };
   return (
     <>
       <Meta title="Our Store" />
@@ -58,23 +62,23 @@ const OurStore = () => {
                   </div>
                   <h5 className="sub-title">Price</h5>
                   <div className="d-flex align-items-center gap-10">
-                    <div class="form-floating mb-3">
+                    <div className="form-floating mb-3">
                       <input
                         type="email"
-                        class="form-control"
+                        className="form-control"
                         id="formId1"
                         placeholder="From"
                       />
-                      <label for="formId1">From</label>
+                      <label htmlFor="formId1">From</label>
                     </div>
-                    <div class="form-floating mb-3">
+                    <div className="form-floating mb-3">
                       <input
                         type="email"
-                        class="form-control"
+                        className="form-control"
                         id="formId2"
                         placeholder="To"
                       />
-                      <label for="formId2">To</label>
+                      <label htmlFor="formId2">To</label>
                     </div>
                   </div>
                   <h5 className="sub-title">Colors</h5>
@@ -223,7 +227,13 @@ const OurStore = () => {
                     <p className="mb-0 d-block" style={{ width: "100px" }}>
                       Sort By:
                     </p>
-                    <select name="" id="" className="form-control form-select">
+                    <select
+                      value={selectedOption}
+                      onChange={handleSelectChange}
+                      name=""
+                      id=""
+                      className="form-control form-select"
+                    >
                       <option value="manual">Featured</option>
                       <option value="best-selling" selected="selected">
                         Best selling

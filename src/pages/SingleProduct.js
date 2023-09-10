@@ -41,13 +41,13 @@ const SingleProduct = () => {
                       smallImage: {
                         alt: "Wristwatch by Ted Baker London",
                         isFluidWidth: true,
-                        src: "/images/headphone.jpg",
+                        src: "/images/watch-01.jpg",
                       },
                       style: {
                         padding: "1px",
                       },
                       largeImage: {
-                        src: "/images/headphone.jpg",
+                        src: "/images/watch-01.jpg",
                         width: 1000,
                         height: 1000,
                       },
@@ -59,14 +59,14 @@ const SingleProduct = () => {
               <div className="other-product-images mt-3 d-flex flex-wrap gap-15">
                 <div>
                   <img
-                    src="/images/headphone.jpg"
+                    src="/images/watch.jpg"
                     className="img-fluid"
                     alt="watch"
                   />
                 </div>
                 <div>
                   <img
-                    src="/images/headphone.jpg"
+                    src="/images/watch-01.jpg"
                     className="img-fluid"
                     alt="watch"
                   />
@@ -91,9 +91,9 @@ const SingleProduct = () => {
                     <p className="mb-0 t-review">(2 Reviews)</p>
                   </div>
                   <div>
-                    <a href="#reviews" className="review-btn">
+                    <Link to="#reviews" className="review-btn">
                       Write a Review
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className=" py-3">
@@ -166,12 +166,12 @@ const SingleProduct = () => {
                   </div>
                   <div className="d-flex align-items-center gap-15">
                     <div>
-                      <Link>
+                      <Link to="">
                         <FaCodeCompare className="fs-5 me-2" /> Add to Compare
                       </Link>
                     </div>
                     <div>
-                      <Link>
+                      <Link to="">
                         <FaRegHeart className="fs-5 me-2" /> Add to Wishlist
                       </Link>
                     </div>

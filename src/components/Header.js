@@ -5,14 +5,14 @@ const Header = () => {
   return (
     <>
       <header className="header-top-strip py-3">
-        <div class="container-xxl">
-          <div class="row">
-            <div class="col-6">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-6">
               <p className="text-white mb-0">
                 Fee shipping Over $100 & Free Returns
               </p>
             </div>
-            <div class="col-6">
+            <div className="col-6">
               <p className="text-end text-white">
                 Hotline:{" "}
                 <Link className="text-white" to="tel: +91-9545658521">
