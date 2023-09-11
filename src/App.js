@@ -6,6 +6,8 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import OurStore from "./pages/OurStore";
+import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout";
 import SingleProduct from "./pages/SingleProduct";
 import Blog from "./pages/Blog";
 import SingleBlog from "./pages/SingleBlog";
@@ -34,6 +36,8 @@ function App() {
             <Route path="blogs/:id" element={<SingleBlog />} />
             <Route path="compare-products" element={<CompareProduct />} />
             <Route path="wishlist" element={<Wishlist />} />
+            <Route path="cart" element={<Cart />} />
+            <Route path="checkout" element={<Checkout />} />
             <Route path="login" element={<Login />} />
             <Route path="signup" element={<Signup />} />
             <Route path="forgot-password" element={<Forgotpassword />} />

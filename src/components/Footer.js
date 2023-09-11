@@ -23,9 +23,13 @@ const Footer = () => {
                   aria-label="Your Email Address"
                   aria-describedby="basic-addon2"
                 />
-                <span className="input-group-text p-2" id="basic-addon2">
+                <Link
+                  className="input-group-text py-2"
+                  id="basic-addon2"
+                  to="#"
+                >
                   Subscribe
-                </span>
+                </Link>
               </div>
             </div>
           </div>

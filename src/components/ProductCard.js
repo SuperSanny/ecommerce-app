@@ -13,7 +13,9 @@ const ProductCard = (props) => {
       >
         <Link to={":id"} className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
-            <img src="/images/wish.svg" alt="wishlist" />
+            <button className="border-0 bg-transparent">
+              <img src="/images/wish.svg" alt="wishlist" />
+            </button>
           </div>
           <div className="product-image">
             <img
@@ -49,15 +51,15 @@ const ProductCard = (props) => {
           </div>
           <div className="action-bar position-absolute">
             <div className="d-flex flex-column gap-15">
-              <Link to="">
+              <button className="border-0 bg-transparent">
                 <img src="/images/prodcompare.svg" alt="compare" />
-              </Link>
-              <Link to="">
+              </button>
+              <button className="border-0 bg-transparent">
                 <img src="/images/view.svg" alt="view" />
-              </Link>
-              <Link to="">
+              </button>
+              <button className="border-0 bg-transparent">
                 <img src="/images/add-cart.svg" alt="addcart" />
-              </Link>
+              </button>
             </div>
           </div>
         </Link>
@@ -67,18 +69,20 @@ const ProductCard = (props) => {
           location.pathname === "/products" ? `gr-${grid}` : "col-3"
         }`}
       >
-        <Link to="" className="product-card position-relative">
+        <Link to={":id"} className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
-            <img src="images/wish.svg" alt="wishlist" />
+            <button className="border-0 bg-transparent">
+              <img src="/images/wish.svg" alt="wishlist" />
+            </button>
           </div>
           <div className="product-image">
             <img
-              src="images/watch.jpg"
+              src="/images/watch.jpg"
               className="img-fluid"
               alt="productImage"
             />
             <img
-              src="images/watch-01.jpg"
+              src="/images/watch-01.jpg"
               className="img-fluid"
               alt="productImage"
             />
@@ -105,15 +109,15 @@ const ProductCard = (props) => {
           </div>
           <div className="action-bar position-absolute">
             <div className="d-flex flex-column gap-15">
-              <Link to="">
-                <img src="images/prodcompare.svg" alt="compare" />
-              </Link>
-              <Link to="">
-                <img src="images/view.svg" alt="view" />
-              </Link>
-              <Link to="">
-                <img src="images/add-cart.svg" alt="addcart" />
-              </Link>
+              <button className="border-0 bg-transparent">
+                <img src="/images/prodcompare.svg" alt="compare" />
+              </button>
+              <button className="border-0 bg-transparent">
+                <img src="/images/view.svg" alt="view" />
+              </button>
+              <button className="border-0 bg-transparent">
+                <img src="/images/add-cart.svg" alt="addcart" />
+              </button>
             </div>
           </div>
         </Link>
@@ -123,18 +127,20 @@ const ProductCard = (props) => {
           location.pathname === "/products" ? `gr-${grid}` : "col-3"
         }`}
       >
-        <Link to="" className="product-card position-relative">
+        <Link to={":id"} className="product-card position-relative">
           <div className="wishlist-icon position-absolute">
-            <img src="images/wish.svg" alt="wishlist" />
+            <button className="border-0 bg-transparent">
+              <img src="/images/wish.svg" alt="wishlist" />
+            </button>
           </div>
           <div className="product-image">
             <img
-              src="images/watch.jpg"
+              src="/images/watch.jpg"
               className="img-fluid"
               alt="productImage"
             />
             <img
-              src="images/watch-01.jpg"
+              src="/images/watch-01.jpg"
               className="img-fluid"
               alt="productImage"
             />
@@ -161,15 +167,15 @@ const ProductCard = (props) => {
           </div>
           <div className="action-bar position-absolute">
             <div className="d-flex flex-column gap-15">
-              <Link to="">
-                <img src="images/prodcompare.svg" alt="compare" />
-              </Link>
-              <Link to="">
-                <img src="images/view.svg" alt="view" />
-              </Link>
-              <Link to="">
-                <img src="images/add-cart.svg" alt="addcart" />
-              </Link>
+              <button className="border-0 bg-transparent">
+                <img src="/images/prodcompare.svg" alt="compare" />
+              </button>
+              <button className="border-0 bg-transparent">
+                <img src="/images/view.svg" alt="view" />
+              </button>
+              <button className="border-0 bg-transparent">
+                <img src="/images/add-cart.svg" alt="addcart" />
+              </button>
             </div>
           </div>
         </Link>

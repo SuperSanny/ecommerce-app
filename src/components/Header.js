@@ -4,16 +4,16 @@ import { BsSearch } from "react-icons/bs";
 const Header = () => {
   return (
     <>
-      <header className="header-top-strip py-3">
+      <header className="header-top-strip py-2">
         <div className="container-xxl">
           <div className="row">
             <div className="col-6">
-              <p className="text-white mb-0">
+              <p className="text-white mt-2">
                 Fee shipping Over $100 & Free Returns
               </p>
             </div>
             <div className="col-6">
-              <p className="text-end text-white">
+              <p className="text-end text-white mt-2">
                 Hotline:{" "}
                 <Link className="text-white" to="tel: +91-9545658521">
                   +91-9545658521
@@ -42,9 +42,13 @@ const Header = () => {
                   aria-label="Search Product Here"
                   aria-describedby="basic-addon2"
                 />
-                <span className="input-group-text p-3" id="basic-addon2">
+                <Link
+                  className="input-group-text py-2"
+                  id="basic-addon2"
+                  to="#"
+                >
                   <BsSearch className="fs-6" />
-                </span>
+                </Link>
               </div>
             </div>
             <div className="col-5 ">
