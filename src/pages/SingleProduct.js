@@ -14,7 +14,8 @@ import {
   LiaViharaSolid,
 } from "react-icons/lia";
 import Container from "../components/Container";
-import { RiArrowUpSLine, RiArrowDownSLine } from "react-icons/ri";
+import CollapseSection from "../components/CollapseSection";
+
 const SingleProduct = () => {
   const [orderProduct, setOrderProduct] = useState(true);
   console.log(setOrderProduct);
@@ -27,6 +28,13 @@ const SingleProduct = () => {
     document.execCommand("copy");
     textField.remove();
   };
+
+  // const [isCollapsed, setCollapsed] = useState(true);
+
+  // const toggleCollapse = () => {
+  //   setCollapsed(!isCollapsed);
+  // };
+
   return (
     <>
       <Meta title=" Dynamic Product name" />
@@ -176,54 +184,40 @@ const SingleProduct = () => {
                     </Link>
                   </div>
                 </div>
-                <div className="d-flex gap-10 flex-column border-bottom my-4 my-3">
-                  <div className="d-flex align-items-center justify-content-between">
-                    <h4 className="product-heading">
-                      <LiaShippingFastSolid className="fs-5 me-2" /> Shipping &
-                      Returns{" "}
-                    </h4>
-                    <RiArrowUpSLine />
-                  </div>
-                  <p className="product-data ps-2 py-2">
-                    Free shipping and returns available on all orders! <br /> We
-                    ship all US domestic orders within
-                    <b> 5-10 business days!</b>
-                  </p>
-                </div>
-                <div className="d-flex gap-10 flex-column border-bottom my-3">
-                  <div className="d-flex align-items-center justify-content-between">
-                    <h4 className="product-heading">
-                      <LiaViharaSolid className="fs-5 me-2" /> Materials{" "}
-                    </h4>
-                    <RiArrowDownSLine />
-                  </div>
-                  <p className="product-data ps-2 py-2">
-                    Running Shoes cushions your stride With sott foam to keep
-                    vou running in comfort. Leghtweight Knit material <br />{" "}
-                    wraps foot in breathable support. while a minimalist design
-                    fits in lust about Vour day takes you.
-                  </p>
-                </div>
-                <div className="d-flex gap-10 flex-column border-bottom my-3">
-                  <div className="d-flex align-items-center justify-content-between">
-                    <h4 className="product-heading">
-                      <LiaPencilRulerSolid className="fs-5 me-2" /> Dimensions{" "}
-                    </h4>
-                    <RiArrowDownSLine />
-                  </div>
-                  <p className="product-data ps-2 py-2">350 x 450 cm.</p>
-                </div>
-                <div className="d-flex gap-10 flex-column border-bottom my-3">
-                  <div className="d-flex align-items-center justify-content-between">
-                    <h4 className="product-heading">
-                      <FaRegHeart className="fs-5 me-2" /> Care Instructions{" "}
-                    </h4>
-                    <RiArrowDownSLine />
-                  </div>
-                  <p className="product-data ps-2 py-2">
-                    Use a soft damp cloth and a drop of mid soap to remove any
-                    haze. Air dry
-                  </p>
+                <div>
+                  <CollapseSection
+                    title={
+                      <>
+                        <LiaShippingFastSolid className="fs-5 me-2" /> Shipping
+                        & Returns
+                      </>
+                    }
+                    content="Free shipping and returns available on all orders! We ship all US domestic orders within 5-10 business days!"
+                  />
+                  <CollapseSection
+                    title={
+                      <>
+                        <LiaViharaSolid className="fs-5 me-2" /> Materials
+                      </>
+                    }
+                    content="Running Shoes cushions your stride With soft foam to keep you running in comfort. Lightweight knit material wraps foot in breathable support, while a minimalist design fits in just about wherever your day takes you."
+                  />
+                  <CollapseSection
+                    title={
+                      <>
+                        <LiaPencilRulerSolid className="fs-5 me-2" /> Dimensions
+                      </>
+                    }
+                    content="350 x 450 cm."
+                  />
+                  <CollapseSection
+                    title={
+                      <>
+                        <FaRegHeart className="fs-5 me-2" /> Care Instructions
+                      </>
+                    }
+                    content="Use a soft damp cloth and a drop of mild soap to remove any haze. Air dry."
+                  />
                 </div>
                 <div className="d-flex gap-10 align-items-center my-2">
                   <h4 className="product-heading">

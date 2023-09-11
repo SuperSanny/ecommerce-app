@@ -763,7 +763,7 @@ footer .input-group-text {
 .product-heading {
   font-size: 16px;
   color: var(--color-1c1c1b);
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 .product-data {
   font-size: 14px;

@@ -11,20 +11,7 @@ const SingleBlog = () => {
       <Meta title=" Dynamic Blog Name" />
       <BreadCrumb title=" Dynamic Blog Name" />
       <Container class1="blog-wrapper home-wrapper-2 py-5">
-        <div className="row">
-          <div className="col-3">
-            <div className="filter-card mb-3">
-              <h3 className="filter-title">Shop By Categories</h3>
-              <div>
-                <ul className="ps-0">
-                  <li>Watch</li>
-                  <li>Tv</li>
-                  <li>Camera</li>
-                  <li>Laptop</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+        <div className="row d-flex justify-content-center">
           <div className="col-9">
             <div className="col-12 mb-3">
               <div className="single-blog-card">
